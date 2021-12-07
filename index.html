@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Actividad 3 </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Css/formatos.css">
+	<script type="text/javascript" src="js/validacion.js"></script>
+</head>
+<body>
+	<div id="contenido">
+	<div id="titulo">
+	<h1> Nuevo Producto</h1>
+	</div>
+
+	<div id="newprod">
+		<form class="form">
+
+			<label for="nomb"><div class="label"> Categoria:</label> </div>
+			<input class="cajastxt" type="Text"  name="categ" placeholder="Inmobiliario" maxlength="15" required><br><br>
+			
+			<label> <div class="label"> Nombre:</label></div>
+			<input class="cajastxt" type="Text"  name="nombre" placeholder="Mesa" maxlength="20" required><br><br>
+
+			<label><div class="label">Precio:</label></div>
+			<input class="cajastxt" type="number" id="valor" name="Precio" placeholder="40000" min="1" required><br><br>
+			
+			<label><div class="label">Cantidad:</label></div>
+			<input class="cajastxt" type="number" id="quantity" name="number" placeholder="2" min="1" required ><br><br>
+			
+			<div id="boton">
+			<input type="submit" onclick="mensaje()" name="Crear Producto" value="Crear Producto">
+			</div>
+
+		</form>
+
+	</div>
+
+
+	</div>
+
+
+</body>
+</html>

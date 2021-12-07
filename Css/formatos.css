@@ -1,0 +1,49 @@
+#contenido {
+	background-color: #DEDCDB;
+	width: 600px;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 20px;
+	
+}
+
+#titulo {
+
+	text-align: center;
+	color: red;
+	padding: 2px;
+}
+
+.form {
+	width: 400px;
+	padding: 30px;
+	margin: auto;
+	font-family: 'calibri';
+}
+
+.cajastxt {
+	width: 50%;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'calibri';
+	font-size: 15px;
+}
+
+#label {
+	width: 20%;
+	text-align: center;
+	font-family: 'calibri';
+	font-size: 18px;
+}
+
+#boton {
+	border-radius: 5px;
+	font-family: 'calibri';
+	font-size: 22px;
+
+}
+
+input:invalid{
+	border: 2px dashed red;
+}
+
